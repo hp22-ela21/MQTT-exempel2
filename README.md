@@ -2,6 +2,8 @@
 Egenskapad klass för enkel MQTT-implementering. Användaren behöver enbart uppge en host samt topic vid publishing samt subscription.
 Även i detta exempel publiceras meddelanden inmatade från terminalen via en klient och skrivs ut vid mottagande (för subscribers) via host "broker.hivemq.com".
 
+Filen mqtt.py innehåller den användarvänliga klassen mqtt, som används för MQTT-implementering i detta exempel.
+
 Filen client.py används för att publicera meddelanden, där inmatning sker från terminalen tills användaren matar in en tom rad. 
 Meddelanden publiceras till topic "python/mqtt/topics/1".
 
